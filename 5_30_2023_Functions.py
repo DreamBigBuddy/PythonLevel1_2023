@@ -4,15 +4,15 @@ import turtle
 
 t = turtle.Turtle()
 
-##def printName():
-##    print("Hi Vaman!")
-##
-##printName()
+def printName():
+   print("Hi Vaman!")
 
-##def add(x, y):
-##    print(x + y)
-##
-##add(5, 10)
+printName()
+
+def add(x, y):
+   print(x + y)
+
+add(5, 10)
 
 def drawSquare(side_length):
     for i in range(4):
